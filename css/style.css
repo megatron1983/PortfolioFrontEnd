@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+#navegacion {
+  color: white !important;
+  padding: 1rem 2rem;
+  background-color: rgb(48, 70, 194) !important;
+}
+.navbar-nav li a {
+  color: white;
+}
+
+.git {
+  fill: cornsilk;
+  width: 20px;
+  margin-left: 1rem;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+}
+
+#inicio {
+  background: linear-gradient(rgba(4, 10, 105, 0.4), rgba(0, 0, 0, 0.9)),
+    url("../img/banner.jpg");
+  height: 500px;
+  color: white;
+}
+
+#inicio h1 {
+  padding-top: 200px;
+}
+
+#sobre-mi {
+  padding: 5rem 2rem;
+}
+
+#sobre-mi img {
+  width: 250px;
+}
