@@ -8,7 +8,7 @@ ul li {
 }
 #navegacion {
   color: white !important;
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   background-color: rgb(48, 70, 194) !important;
 }
 .navbar-nav li a {
@@ -37,10 +37,31 @@ ul li {
   padding-top: 200px;
 }
 
-#sobre-mi {
-  padding: 5rem 2rem;
+#sobre-mi,
+#experiencia-laboral {
+  padding: 5rem 4rem;
 }
 
 #sobre-mi img {
   width: 250px;
+}
+
+.titulo {
+  color: rgb(48, 70, 194);
+  text-align: left;
+}
+
+.trabajo {
+  padding: 1 rem;
+}
+
+.fondo-datos {
+  background-color: rgb(48, 70, 194);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#experiencia-laboral .titulo {
+  padding-bottom: 3rem;
 }
