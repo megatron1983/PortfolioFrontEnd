@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Maximiliano Angel Gatica</title>
+    <title>Maximiliano Angel Gatica - Porfolio</title>
     <meta name="description" content="" />
     <meta content="" name="keywords" />
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
@@ -18,6 +18,7 @@
       href="https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/29e135ceeb.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header id="navegacion">
@@ -74,25 +75,57 @@
           </div>
           <ul class="iconos">
             <li>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z"
-                  fill="currentColor"
-                />
-              </svg>
+               <a href="">
+              <i class="fa-brands fa-square-facebook fa-2x" style="color: #ffffff;"></i>
+              </a>
             </li>
             <li>
-              <img class="git" src="img/github-01.svg" alt="" />
+               <a href="">
+              <i class="fa-brands fa-square-github fa-2x" style="color: #ffffff;"></i>
+              </a>
+            </li>
+            <li>
+               
+               <!-- Button trigger modal -->
+               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#login">
+               <i class="fa-solid fa-user fa-2x" style="color: #ffffff;"></i>
+               </button>
             </li>
           </ul>
         </div>
       </nav>
+      
+
+<!-- Modal -->
+      <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered ">
+         <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Ingresar</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
     </header>
     <section id="inicio">
       <div class="conteiner">
@@ -114,25 +147,19 @@
           </div>
           <div class="col-lg-8 col-sm-12">
             <h2 class="titulo">Sobre Mí</h2>
-            <p>
-              Soy un desarrollador web y de aplicaciones móviles junior con una
+            <p >
+              Soy un <strong>desarrollador web</strong> y de aplicaciones móviles junior con una
               pasión por crear soluciones innovadoras y atractivas para la web y
-              los dispositivos móviles. Con experiencia en HTML, CSS,
-              JavaScript, Flutter, Angular, me esfuerzo por producir código
+              los dispositivos móviles. Con experiencia en     <strong> HTML, CSS,
+              JavaScript, Flutter, Angular</strong>, me esfuerzo por producir código
               limpio, eficiente y accesible tanto para la web como para
-              aplicaciones móviles. Mi experiencia incluye el desarrollo de
+              aplicaciones móviles. </p>
+              <p> Mi experiencia incluye el desarrollo de
               sitios web y aplicaciones móviles para pequeñas empresas y
               proyectos personales. Me enfoco en garantizar una experiencia de
               usuario excelente en todos los dispositivos, trabajando de manera
               colaborativa con diseñadores y otros desarrolladores para alcanzar
-              los objetivos de proyecto. Además, estoy comprometido con el
-              aprendizaje constante y estoy dispuesto a adaptarme a nuevas
-              tecnologías y herramientas para mejorar mis habilidades y aportar
-              valor a los proyectos. Me encanta trabajar en equipo y estoy
-              dispuesto a hacer lo necesario para lograr el éxito del proyecto.
-              Con un enfoque en la atención al detalle y la búsqueda constante
-              de soluciones eficientes, estoy listo para enfrentar cualquier
-              desafío y ayudar a mis clientes a alcanzar sus objetivos en línea.
+              los objetivos de proyecto. 
             </p>
           </div>
         </div>
@@ -224,7 +251,7 @@ Usar las metodogías ágiles y herramientas de trabajo establecidas
         <!-- Trabajo3fin -->
       </div>
     </section>
-    <section id="Educacion">
+    <section id="educacion">
       <div class="conteiner">
         <div class="row"></div>
         <h2 class="titulo">Educación</h2>
@@ -297,7 +324,32 @@ Usar las metodogías ágiles y herramientas de trabajo establecidas
     </section>
     <section id="proyectos">
       <div class="conteiner">
-        <div class="row"></div>
+        <div class="row">
+         <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
       </div>
     </section>
     <section id="contacto">

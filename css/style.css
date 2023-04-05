@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
 }
+p {
+  font-size: 1.2rem;
+}
 
 ul li {
   list-style-type: none;
@@ -26,6 +29,10 @@ ul li {
   flex-direction: row;
 }
 
+.iconos li {
+  margin-left: 1rem;
+}
+
 #inicio {
   background: linear-gradient(rgba(4, 10, 105, 0.4), rgba(0, 0, 0, 0.9)),
     url("../img/banner.jpg");
@@ -38,7 +45,8 @@ ul li {
 }
 
 #sobre-mi,
-#experiencia-laboral {
+#experiencia-laboral,
+#educacion {
   padding: 5rem 4rem;
 }
 
@@ -62,6 +70,12 @@ ul li {
   text-align: center;
 }
 
-#experiencia-laboral .titulo {
+#experiencia-laboral .titulo,
+#educacion .titulo {
   padding-bottom: 3rem;
+}
+
+.modal-title,
+.form-label {
+  color: gray;
 }
